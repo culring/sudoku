@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControlsWindow</class>
+ <widget class="QWidget" name="ControlsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>362</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Controls</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>311</width>
+     <height>283</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="horizontalSpacing">
+     <number>10</number>
+    </property>
+    <item row="2" column="0">
+     <widget class="QLabel" name="moveUpLabel">
+      <property name="text">
+       <string>Move up</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="moveLeftKeyLabel">
+      <property name="text">
+       <string>LeftArrow</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="moveNextUpLabel">
+      <property name="text">
+       <string>Move to next up</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="moveNextDownLabel">
+      <property name="text">
+       <string>Move to next down</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QKeySequenceEdit" name="moveNextRightKeySequenceEdit"/>
+    </item>
+    <item row="6" column="2">
+     <widget class="QKeySequenceEdit" name="moveNextUpKeySequenceEdit"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QKeySequenceEdit" name="moveUpKeySequenceEdit"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QKeySequenceEdit" name="moveRightKeySequenceEdit"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="moveUpKeyLabel">
+      <property name="text">
+       <string>UpArrow</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="moveLeftLabel">
+      <property name="text">
+       <string>Move left</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QKeySequenceEdit" name="moveDownKeySequenceEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="moveNextLeftLabel">
+      <property name="text">
+       <string>Move to next left</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="moveRightLabel">
+      <property name="text">
+       <string>Move right</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QKeySequenceEdit" name="moveNextLeftKeySequenceEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="moveNextRightLabel">
+      <property name="text">
+       <string>Move to next right</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QKeySequenceEdit" name="moveLeftKeySequenceEdit"/>
+    </item>
+    <item row="7" column="2">
+     <widget class="QKeySequenceEdit" name="moveNextDownKeySequenceEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="moveDownLabel">
+      <property name="text">
+       <string>Move down</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="moveRightKeyLabel">
+      <property name="text">
+       <string>RightArrow</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="moveDownKeyLabel">
+      <property name="text">
+       <string>DownArrow</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
