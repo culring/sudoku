@@ -42,8 +42,7 @@ FORMS += \
         sudoku.ui \
     controlsdialog.ui
 
-DISTFILES += \
-    res.qc
+DISTFILES +=
 
 RESOURCES += \
     resources.qrc
